@@ -1,0 +1,47 @@
+{
+  "workflows": [
+    {
+      "id": "akium-lumen",
+      "name": "Akium Lumen",
+      "description": "Black magic in terms of quality and speed. Optimized with DMD2.",
+      "style": "Anime / Illustrious",
+      "vram_gb": 8,
+      "preview_url": "https://raw.githubusercontent.com/TheRay-St/Workflows/main/previews/lumen-fast.png",
+      "workflow_url": "https://raw.githubusercontent.com/TheRay-St/Workflows/main/files/lumen-fast.json",
+      "workflow_filename": "lumen-fast.json",
+      "models": [
+        {
+          "id": "akium-lumen",
+          "filename": "akiumLumenILLBase_base.safetensors",
+          "type": "checkpoints",
+          "download_url": "https://civitai.com/api/download/models/268962"
+        },
+        {
+          "id": "dmd2-speed-lora",
+          "filename": "speed/dmd2_sdxl_4step_lora.safetensors",
+          "type": "loras",
+          "download_url": "https://civitai.com/api/download/models/181285"
+        },
+        {
+          "id": "controlnet-union-sdxl",
+          "filename": "diffusion_pytorch_model_promax.safetensors",
+          "type": "controlnet",
+          "download_url": "https://huggingface.co/xinsir/controlnet-union-sdxl-1.0/resolve/main/diffusion_pytorch_model_promax.safetensors"
+        },
+        {
+          "id": "nmkd-upscaler",
+          "filename": "4x_NMKD-Superscale-SP_178000_G.pth",
+          "type": "upscale_models",
+          "download_url": "https://huggingface.co/gemasai/4x_NMKD-Superscale-SP_178000_G/resolve/main/4x_NMKD-Superscale-SP_178000_G.pth"
+        }
+      ],
+      "custom_nodes": [
+        "ComfyUI-Manager",
+        "rgthree-comfy",
+        "ComfyUI-Custom-Scripts",
+        "ComfyUI_Essentials",
+        "comfyui-pysssss-nodes"
+      ]
+    }
+  ]
+}
