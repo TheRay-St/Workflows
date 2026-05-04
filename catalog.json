@@ -40,7 +40,11 @@
         "rgthree-comfy",
         "ComfyUI-Custom-Scripts",
         "ComfyUI_Essentials",
-        "comfyui-pysssss-nodes"
+        "comfyui-pysssss-nodes",
+        "ComfyUI-Impact-Pack",
+        "comfyui_controlnet_aux"
+        "comfyui_essentials"
+        "comfyui-custom-scripts"
       ]
     }
   ]
