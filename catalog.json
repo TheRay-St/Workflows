@@ -42,8 +42,8 @@
         "ComfyUI_Essentials",
         "comfyui-pysssss-nodes",
         "ComfyUI-Impact-Pack",
-        "comfyui_controlnet_aux"
-        "comfyui_essentials"
+        "comfyui_controlnet_aux",
+        "comfyui_essentials",
         "comfyui-custom-scripts"
       ]
     }
